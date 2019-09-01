@@ -1,0 +1,41 @@
+#解决运行时无法识别主机名
+spring:
+  boot:
+    admin:
+      client:
+        prefer-ip: true
+  application:
+    name: springcloudadmin
+server:
+  port: 7086
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:7001/eureka
+info:
+  app.name: study-microservicecloud-admin
+  company.name: www.studyspringcloud.com
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
+management:
+  security:
+    enabled: false
+    roles: adminuser
+security:
+  user:
+    name: admin
+    password: admin
+  basic:
+    enabled: false
+  #开启shutdown的安全验证
+endpoints:
+  health:
+    sensitive: true
+  cors:
+    allowed-methods: HEAD,GET,POST
+  #启用shutdown
+  shutdown:
+    enabled: true
+    sensitive: false

@@ -5,6 +5,7 @@
 	<modules>
 		<module>eureka7001</module>
 		<module>providerdepr8001</module>
+		<module>admin</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
