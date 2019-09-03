@@ -15,6 +15,7 @@ info:
   company.name: www.studyspringcloud.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+#这些功能涉及敏感信息，被监控端需要安全认证才能访问对应的监控点，添加配置可规避此异常：
 management:
   security:
-    enabled=false:
+    enabled: false

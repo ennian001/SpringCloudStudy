@@ -6,7 +6,8 @@
 		<module>eureka7001</module>
 		<module>providerdepr8001</module>
 		<module>admin</module>
-	</modules>
+        <module>api</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
