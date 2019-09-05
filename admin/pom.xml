@@ -32,8 +32,8 @@
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
+            <artifactId>spring-boot-starter-com.sc.study.test</artifactId>
+            <scope>com.sc.study.test</scope>
         </dependency>
 
         <dependency>

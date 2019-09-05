@@ -7,6 +7,7 @@
 		<module>providerdepr8001</module>
 		<module>admin</module>
         <module>api</module>
+        <module>microservicecloud-consumer-dept-80</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -41,7 +42,7 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
+			<artifactId>spring-boot-starter-com.sc.study.test</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
