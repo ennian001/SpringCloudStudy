@@ -12,7 +12,8 @@ import java.util.List;
 @RestController
 public class DeptController_Consumer {
 
-    private static final String REST_URL_PRE = "http://localhost:8001";
+//    private static final String REST_URL_PRE = "http://localhost:8001";
+    private static final String REST_URL_PRE = "http://MICROSERVICECLOUD-DEPT";
     @Autowired
     private RestTemplate restTemplate;
 

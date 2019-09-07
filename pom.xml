@@ -8,7 +8,9 @@
 		<module>admin</module>
         <module>api</module>
         <module>microservicecloud-consumer-dept-80</module>
-    </modules>
+        <module>eureka7002</module>
+		<module>eureka7003</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
@@ -42,7 +44,7 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-com.sc.study.test</artifactId>
+			<artifactId>spring-boot-starter-test</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
