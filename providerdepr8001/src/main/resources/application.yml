@@ -6,6 +6,10 @@ eureka:
   instance:
 #    instance-id: microservicecloud-dept-8001 #自定义服务名称信息
     prefer-ip-address: true #访问路径可以显示IP地址
+    # 指定Eureka Client 间隔多久需要向EurekaServer 发送心跳来告知Eureka Server 该实例还存活
+    lease-expiration-duration-in-seconds: 90
+    #EurekaClient 向EurekaServer 发送心跳的时间间隔
+    lease-renewal-interval-in-seconds: 30
 spring:
   application:
     name: microservicecloud-dept

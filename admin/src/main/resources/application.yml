@@ -15,6 +15,7 @@ eureka:
     service-url:
 #      defaultZone: http://47.105.157.113:7001/eureka
       defaultZone: http://localhost:7001/eureka
+#      defaultZone: http://47.105.157.113:7001/eureka
 info:
   app.name: study-microservicecloud-admin
   company.name: www.studyspringcloud.com
@@ -40,3 +41,6 @@ endpoints:
   shutdown:
     enabled: true
     sensitive: false
+#日志位置，SpringBootAdmin
+logging:
+  file: /home/oaas/log/springadmin.log
