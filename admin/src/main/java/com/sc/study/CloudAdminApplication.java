@@ -15,6 +15,4 @@ public class CloudAdminApplication {
     public static void main(String[] args) {
         SpringApplication.run(CloudAdminApplication.class,args);
     }
-
-
 }

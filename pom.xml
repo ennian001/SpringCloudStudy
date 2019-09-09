@@ -12,7 +12,14 @@
 		<module>eureka7001</module>
 		<module>providerdepr8001</module>
 		<module>admin</module>
-	</modules>
+        <module>api</module>
+        <module>microservicecloud-consumer-dept-80</module>
+        <module>eureka7002</module>
+		<module>eureka7003</module>
+        <module>provider-dept-8002</module>
+		<module>provider-dept-8003</module>
+        <module>microservice-consumer-dept-feign</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-dependencies</artifactId>
@@ -38,6 +45,11 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-core</artifactId>
+			<version>1.2.3</version>
 		</dependency>
 	</dependencies>
 
